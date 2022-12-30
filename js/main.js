@@ -41,7 +41,7 @@ $(function(){
 		$(".controller li").removeClass("active");
 		$(".controller li").eq(darkN).addClass("active");
 
-		console.log(darkN);
+		// console.log(darkN);
 
 		if(darkN != 0){
 			$(".global_menu").addClass("dark");
